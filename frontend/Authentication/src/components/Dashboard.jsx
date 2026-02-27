@@ -17,6 +17,7 @@ function Dashboard() {
           throw new Error("Unauthorized");
         }
 
+
         const data = await res.json();
         setUser(data.user);
 
